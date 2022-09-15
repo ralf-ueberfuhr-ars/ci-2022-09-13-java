@@ -5,6 +5,11 @@ pipeline {
         jdk 'openjdk-17'
     }
     stages {
+        stage ('Pipeline Test') {
+            steps {
+            	echo "PATH = ${PATH}"
+            }
+        }
         stage ('Initialize') {
             steps {
             	sh '''
