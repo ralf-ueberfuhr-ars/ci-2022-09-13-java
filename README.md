@@ -7,3 +7,5 @@ Build the project by invoking
 ```bash
 mvn clean package
 ```
+
+[Schulungsunterlagen](./docs)
